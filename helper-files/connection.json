@@ -1,0 +1,7 @@
+{
+    "user": "postgres",
+    "host": "localhost",
+    "database": "airport-reservation-system",
+    "password": "drifter24",
+    "port": 5432
+}
