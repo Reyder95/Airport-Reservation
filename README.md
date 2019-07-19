@@ -26,3 +26,16 @@ Retrieves flights, along with destination and origin airports, company, seat inf
   * dairport - Airport CODE that the flight ends at. (EWR for Newark International Airport is an airport code, for example)
 * Company
   * company - Company CODE that the flight is run by (UA for United Airlines is a company code, for example)
+
+### /get_users
+Retrieves users and the various information on each user.
+* Identification
+ * id - Use a user's ID to obtain their information
+* Username
+ * username - Get a user based on a specific username
+* Email
+ * email - Get a user based on a specific email
+* First Name
+ * first_name - Get a user based on a specific first name.
+* Last Name
+ * last_name - Get a user based on a specific last name
