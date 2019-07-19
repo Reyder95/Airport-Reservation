@@ -30,12 +30,12 @@ Retrieves flights, along with destination and origin airports, company, seat inf
 ### /get_users
 Retrieves users and the various information on each user.
 * Identification
- * id - Use a user's ID to obtain their information
+  * id - Use a user's ID to obtain their information
 * Username
- * username - Get a user based on a specific username
+  * username - Get a user based on a specific username
 * Email
- * email - Get a user based on a specific email
+  * email - Get a user based on a specific email
 * First Name
- * first_name - Get a user based on a specific first name.
+  * first_name - Get a user based on a specific first name.
 * Last Name
- * last_name - Get a user based on a specific last name
+  * last_name - Get a user based on a specific last name
