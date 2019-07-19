@@ -39,3 +39,6 @@ Retrieves users and the various information on each user.
   * first_name - Get a user based on a specific first name.
 * Last Name
   * last_name - Get a user based on a specific last name
+
+## How can I follow development?
+If you'd like, you can check out the devlog series I'm working on as I go through the development of this. The link's here: https://www.youtube.com/playlist?list=PLTbOijtc8Y-LAi9j83ZUpgna6SqdYTpSj Please provide any criticism you may have!
