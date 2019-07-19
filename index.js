@@ -5,6 +5,7 @@ const app = express();	// Loads express into the app object
 const port = 1337;	// The port that the server runs on
 
 import flights from './endpoints/flights.js';
+import users from './endpoints/users.js';
 
 app.use(cors());	// Activates cors (to avoid any stupid cors errors)
 
@@ -15,6 +16,8 @@ app.get('/', (req, res) => {
 });
 
 app.get('/get_flights', flights.getFlights);
+
+app.get('/get_users', users.getUsers);
 
 app.listen(port, () => {
 	console.log(`App running on port ${ port }.`);
